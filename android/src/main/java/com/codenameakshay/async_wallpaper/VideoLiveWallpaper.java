@@ -71,7 +71,7 @@ public class VideoLiveWallpaper extends WallpaperService {
             try {
                 mediaPlayer.setDataSource(getFilesDir() + "/file.mp4");
                 mediaPlayer.setLooping(true);
-                mediaPlayer.setVideoScalingMode(MediaPlayer.VIDEO_SCALING_MODE_SCALE_TO_FIT_WITH_CROPPING);
+                mediaPlayer.setVideoScalingMode(MediaPlayer.VIDEO_SCALING_MODE_SCALE_TO_FIT);
                 mediaPlayer.prepare();
                 mediaPlayer.start();
                 // File file = new File(getFilesDir() + "/unmute");
